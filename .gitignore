@@ -2,7 +2,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+bin/
+lib/
+include/
+lib64/
+share/
 # C extensions
 *.so
 

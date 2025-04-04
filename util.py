@@ -2,7 +2,7 @@ import cv2
 import mediapipe as mp
 from typing import Any
 
-def show_landmarks(hand_landmarks: mp.solutions.hands.HandLandmark, frame: Any) -> None:
+def show_landmarks(hand_landmarks: mp.solutions.hands.HandLandmark, frame: Any) -> None: 
     """
     Draws the hand landmarks on the image.
     """
